@@ -41,6 +41,7 @@ function inbound() {
 
   sheet2.getRange(1, 21, sheet2.getLastRow(), 6).clear(); // clear column 21 to 27.
 
+//this is the part that didn't run 
   for (var i = data_on_hand_inv.length - 1; i >= 0; i--) {
   if (data_on_hand_inv[i][0] === '') {
     // Clear the entire row if column A is blank.
